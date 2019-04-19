@@ -1,0 +1,5 @@
+import string
+
+buildDict = {}
+        for i in string.ascii_uppercase:
+            buidDict[i] = string.ascii_lowercase[i]

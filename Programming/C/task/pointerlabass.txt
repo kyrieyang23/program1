@@ -1,0 +1,57 @@
+//#include<stdio.h>
+//
+//int main()
+//{
+//    Q1
+//    int a=5,b=10,temp=0;
+//    int *p;
+//    p = &temp;
+//    *p = b;
+//    p = &b;
+//    *p = a;
+//    b = temp;
+//    printf("%d %d",a,b);
+    //Q2
+//    int a[2],*p;
+//    p = a;
+//    *p = 1;
+//    p++;
+//    *p = 2;
+//    printf("%d %d",a[0],a[1]);
+//    Q3
+//    int a[2] = {1,2},*p,temp=0;
+//    for(int i=0;i<2;i++)
+//    {
+//        p = &a[i];
+//        if(*p >= temp)
+//        {
+//            temp = *p;
+//        }
+//    }
+//    printf("%d",temp);
+//    Q4
+//    int a[4] = {1,2,3,4},*p;
+//    for (int i=0; i<4; i++)
+//    {
+//        p = &a[i];
+//        printf("%d",*p);
+//    }
+//    Q5
+//    int a[2] = {1,2,6,7,4,6,8,1},*p,temp=0;
+//    for(int i=0;i<2;i++)
+//    {
+//        p = &a[i];
+//        if(*p >= temp)
+//        {
+//            temp = *p;
+//        }
+//    }
+//    printf("%d",temp);
+//    Q6
+//    char a[9] = "A string",*p;
+//    p = a;
+//    printf("%c %p %c",*p,&p,*(p+3));
+//    p += 2;
+//    printf("\n%c %c %c",*p,*(p+2),*(p+5));
+//    return 0;
+//}

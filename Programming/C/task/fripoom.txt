@@ -1,0 +1,45 @@
+//#include<stdio.h>
+//#include<string.h>
+//struct product
+//{
+//    char name[15];
+//    int number;
+//    float price;
+//};
+//struct product getdata()
+//{
+//    struct product x;
+//    strcpy(x.name, "Chewing gum");
+//    x.number = 100;
+//    x.price = 25.5;
+//    return x;
+//}
+//void showdata(struct product a)
+//{
+//    printf("name : %s\n",a.name);
+//    printf("number : %d\n",a.number);
+//    printf("price : %.2f\n",a.price);
+//}
+//void sub10(struct product &x)
+//{
+//    if(x.number > 10)
+//        x.number-=10;
+//}
+//void add10(struct product &x)
+//{
+//    x.number += 10;
+//}
+//int main()
+//{
+//    int i;
+//    struct product y;
+//    y = getdata();
+//    showdata(y);
+//    add10(y);
+//    add10(y);
+//    showdata(y);
+//    sub10(y);
+//    showdata(y);
+//    return 0;
+//}
+

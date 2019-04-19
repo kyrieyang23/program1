@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int main()
+{
+    FILE *fpin;
+    int count=0;
+    char ct;
+    fpin = fopen("problem.in", "r");
+    do{
+        ct = getc(fpin);
+        if(ct ==' ' or ct=='\n' or ct=='\0')
+        {
+            count++;
+        }
+        printf("[%c] ",ct);
+    }while(ct != EOF);
+    fclose(fpin);
+    FILE *fpout;
+    fpout = fopen("problem.txt", "w");
+    fprintf(fpout, "Number of words: %d",count);
+    fclose(fpout);
+    return 0;
+}
